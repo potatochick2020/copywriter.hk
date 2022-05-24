@@ -1,0 +1,276 @@
+*{
+  box-sizing: border-box;
+}
+.header-text{
+  background:#87898a;
+  color:1E1E1E;font-family: 'Kanit', sans-serif;
+  box-shadow: 0px 10px 51px 3px rgb(0 0 0 / 15%);
+  border-radius: 5px 5px 5px 5px
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  small {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.4);
+  }
+  
+  h1 {
+    display: block;
+    text-align: center;
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: -1px;
+    color: inherit;
+    font-size: 40px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-weight: 300;
+    color: inherit;
+    padding: 50px;
+  }
+
+  p {
+    text-align: inherit;
+    font-size: inherit;
+    margin: inherit;
+    font-weight: inherit;
+    color: inherit;
+    padding: inherit;
+  }
+
+  .fa{
+    color:#02024a
+  }
+
+  .center {
+    text-align: center;
+  }
+  
+  section {
+    height: 100vh;
+  }
+  
+  /* NAVIGATION */
+  nav {
+    width: 100%;
+    background: #2a2a2d;
+    min-height: 48px;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  nav ul li a {
+    display:block;
+    font-size: 19px;
+    font-weight:400;
+    text-decoration: none;
+    color: white;
+    margin-left:10px;
+    margin-right:10px;
+  }
+  nav ul li a,
+  nav ul li a:after,
+  nav ul li a:before {
+    transition: all .5s;
+  }
+  nav ul li a:hover {
+    color: rgb(61, 61, 61);
+  }
+  
+
+  
+  
+  /* stroke */
+  nav.stroke ul li a,
+  nav.fill ul li a {
+    position: relative;
+  }
+  nav.stroke ul li a:after,
+  nav.fill ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #333;
+    height: 1px;
+  }
+  nav.stroke ul li a:hover:after {
+    width: 100%;
+  }
+  nav ul li a.icon {
+    display: none;
+  }
+
+
+
+
+.tinted-image {
+  background-image: 
+    /* top, transparent red */
+  linear-gradient(
+        rgba(240, 240, 240, 0.45), 
+        rgba(233, 232, 232, 0.45)
+      ),
+        /* your image */
+  url(banner1.png);
+}
+
+
+#button-addon1 {
+  color: #ffc371;
+}
+
+i {
+  color: #dbdbdb;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
+
+.img-hover-zoom--colorize img {
+  transition: transform .5s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
+}
+
+/* The Transformation */
+.img-hover-zoom--colorize:hover img {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+/* [1] The container */
+.img-hover-zoom {
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+
+.borders img {
+  margin:10px;
+  transition: .5s ease;
+}
+  
+.borders img:hover{
+box-shadow: 0 0 0 10px #000000;
+transition: .5s ease;
+}
+
+.button {
+	pointer-events: auto;
+	cursor: pointer;
+	background: #e7e7e7;
+	border: none;
+	padding: 0.5rem 1rem;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
+}
+
+.button::before,
+.button::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.button--pan {
+	font-family: aktiv-grotesk-extended, sans-serif;
+	font-weight: 700;
+	border: 2px solid rgb(56, 56, 56);
+	border-radius: 3rem;
+	overflow: hidden;
+	color: #fff;
+}
+
+.button--pan span {
+	position: relative;
+	mix-blend-mode: difference;
+}
+
+.button--pan::before {
+	content: '';
+	background: #000;
+	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.button--pan:hover::before {
+	transform: translate3d(0,-100%,0);
+}
+
+.gray {
+  background-image: linear-gradient(315deg, #ffffff8a 100%, #ffffff4d 100%)
+}
+
+/*Side Button*/
+.left,
+.right {
+  position: fixed;
+  top: 50%;
+  bottom: 0;
+  height: 2.5em;
+  margin: auto;
+  background: rgb(94, 94, 104);
+  color:white;
+}
+ 
+.left {
+  left: 0;
+  -webkit-transform-origin: 0 50%;
+     -moz-transform-origin: 0 50%;
+      -ms-transform-origin: 0 50%;
+       -o-transform-origin: 0 50%;
+          transform-origin: 0 50%;
+  -webkit-transform: rotate(-90deg) translate(-50%, 50%);
+     -moz-transform: rotate(-90deg) translate(-50%, 50%);
+      -ms-transform: rotate(-90deg) translate(-50%, 50%);
+       -o-transform: rotate(-90deg) translate(-50%, 50%);
+          transform: rotate(-90deg) translate(-50%, 50%);
+}
+ 
+.right {
+   right: 0;
+   -webkit-transform-origin: 100% 50%;
+      -moz-transform-origin: 100% 50%;
+       -ms-transform-origin: 100% 50%;
+        -o-transform-origin: 100% 50%;
+           transform-origin: 100% 50%;
+   -webkit-transform: rotate(90deg) translate(50%, 50%);
+      -moz-transform: rotate(90deg) translate(50%, 50%);
+       -ms-transform: rotate(90deg) translate(50%, 50%);
+        -o-transform: rotate(90deg) translate(50%, 50%);
+           transform: rotate(90deg) translate(50%, 50%);
+}
