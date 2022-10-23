@@ -1,14 +1,10 @@
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-black position-relative overflow-hidden  text-center bg-image" style="
-    background-image:  linear-gradient(315deg, #ffffff80 100%, #d7e1ec80 100%),url(banner2.jpg);
-    background-position: center center;
-    background-size: cover;
-    ">
+<footer class="text-center text-lg-start text-white position-relative overflow-hidden text-center bg-light">
   <!-- Section: Links  -->
-  <section style="height:auto;" class="py-2">
-    <div class="container text-center text-md-start mt-5">
+  <section style="height:auto;" class="pb-2 pt-0 bg-secondary">
+    <div class="container text-center text-md-start mt-0">
       <!-- Grid row -->
-      <div class="row mt-3">
+      <div class="row pt-4">
         <!-- Grid column -->
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-2">
           <!-- Content -->
@@ -25,13 +21,13 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-2">
           <!-- Links -->
           <h6 class="fw-bold mb-2">
-          Digital copywriter
+          Freelance copywriting
           </h6>
           <p class="px-0 mx-0">
-            <a href="#!" class="text-reset">Approach</a>
+            <a href="freelance-english-copywriting.php" class="text-reset">Approach</a>
           </p>
           <p class="px-0 mx-0">
-            <a href="#!" class="text-reset">Fees</a>
+            <a href="freelance-english-copywriting.php#fees" class="text-reset">Fees</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -40,13 +36,13 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-2">
           <!-- Links -->
           <h6 class="fw-bold mb-2">
-          Digital copywriting
+          Website copywriting
           </h6>
           <p class="px-0 mx-0">
-            <a href="#!" class="text-reset">Approach</a>
+            <a href="website-copywriting.php" class="text-reset">Approach</a>
           </p>
           <p class="px-0 mx-0">
-            <a href="#!" class="text-reset">Fees</a>
+            <a href="website-copywriting.php#fees" class="text-reset">Fees</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -58,10 +54,10 @@
           Brand strategy
           </h6>
           <p class="px-0 mx-0">
-            <a href="#!" class="text-reset">Approach</a>
+            <a href="brand-strategist.php" class="text-reset">Approach</a>
           </p>
           <p class="px-0 mx-0">
-            <a href="#!" class="text-reset">Fees</a>
+            <a href="brand-strategist.php#fees" class="text-reset">Fees</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -73,7 +69,7 @@
           Creative agency
           </h6>
           <p class="px-0 mx-0">
-            <a href="#!" class="text-reset">Full service</a>
+            <a href="brand-design-team.php" class="text-reset">Full service</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -85,7 +81,7 @@
           About
           </h6>
           <p class="px-0 mx-0">
-            <a href="#!" class="text-reset">Contact</a>
+            <a href="contact-paul-rigby.php" class="text-reset">Contact</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -96,7 +92,10 @@
   <!-- Section: Links  -->
 
   <!-- Copyright -->
-  <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.05);">
+  <div class="text-center p-2 bg-dark text-white">
+        <a href="Privacy-and-legal.php" style="color:inherit;">Legal & compliance</a>
+  </div>
+  <div class="text-center bg-dark" >
         Copyright © <span id="year"></span> Copywriter.hk
   </div>
   <!-- Copyright -->
