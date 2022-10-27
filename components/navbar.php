@@ -16,11 +16,11 @@
   <div class="collapse navbar-collapse" id="navbarContent">
     <ul class="navbar-nav ms-auto mb-2 mb-xl-0">
       
-      <li class="nav-item "><a href="freelance-english-copywriting">Freelance English copywriter</a></li>
-      <li class="nav-item "><a href="website-copywriting">Website copywriter</a></li>
-      <li class="nav-item "><a href="brand-strategist">Brand strategist</a></li>
-      <li class="nav-item "><a href="brand-design-team">Design & project management</a></li>
-      <li class="nav-item "><a href="contact-paul-rigby">Contact</a></li>
+      <li class="nav-item "><a href="freelance-english-copywriting.php">Freelance English copywriter</a></li>
+      <li class="nav-item "><a href="website-copywriting.php">Website copywriter</a></li>
+      <li class="nav-item "><a href="brand-strategist.php">Brand strategist</a></li>
+      <li class="nav-item "><a href="brand-design-team.php">Design & project management</a></li>
+      <li class="nav-item "><a href="contact-paul-rigby.php">Contact</a></li>
       
       
       
